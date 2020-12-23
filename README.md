@@ -1,2 +1,10 @@
 # Shadow Engine
-A game engine which focus on solving the problem of scripting games in C++ by allowing developers to use Python as the main scripting language.
+A game engine which focuses on solving the problems of scripting games in C++ by allowing developers to use Python as the main scripting language.
+
+Methods:
+
+ShadowVector.cpp
+
+void ShadowVector::ShadowVector::operator+=(ShadowVector v)
+
+this function adds values of the object of shadow vector V to

@@ -2,17 +2,17 @@
 #include "ShadowVector.h"
 
 namespace ShadowEngine{
-    void ShadowVector::ShadowVector::operator+=(ShadowVector v){
+    void ShadowVector::operator+=(ShadowVector v){
         x+=v.x;
         y+=v.y;
         z+=v.z;
     }
 
-    ShadowVector  ShadowVector::ShadowVector::operator+(ShadowVector v){
+    ShadowVector  ShadowVector::operator+(ShadowVector v){
         return ShadowVector(x+v.x,y+v.y,z+v.z);
     }
 
-    void ShadowVector::ShadowVector::operator-=(ShadowVector v){
+    void ShadowVector::operator-=(ShadowVector v){
         x-=v.x;
         y-=v.y;
         z-=v.z;
