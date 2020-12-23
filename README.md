@@ -6,5 +6,3 @@ Methods:
 ShadowVector.cpp
 
 void ShadowVector::ShadowVector::operator+=(ShadowVector v)
-
-this function adds values of the object of shadow vector V to
