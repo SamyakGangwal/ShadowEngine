@@ -1,6 +1,6 @@
 #include <iostream>
-#include "ShadowMathEngine/ShadowVector.h"
-#include "ShadowMathEngine/ShadowMatrix.h"
+#include "ShadowMathEngine/ShadowVector.cpp"
+#include "ShadowMathEngine/ShadowMatrix.cpp"
 using namespace std;
 
 int main(){
