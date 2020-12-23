@@ -1,5 +1,5 @@
 #include <cmath>
-#include "ShadowVector.h"
+#include "ShadowVector.hpp"
 
 namespace ShadowEngine{
     void ShadowVector::operator+=(ShadowVector v){

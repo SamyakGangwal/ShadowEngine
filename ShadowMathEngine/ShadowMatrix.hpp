@@ -4,9 +4,7 @@ namespace ShadowEngine{
         public:
             float matrixData[9];
 
-            ShadowMatrix(float m0,float m3,float m6,
-                                float m1,float m4,float m7,
-                                float m2,float m5,float m8){
+            ShadowMatrix(float m0,float m3,float m6,float m1,float m4,float m7,float m2,float m5,float m8){
                     
                     //row 1
                     matrixData[0]=m0;
